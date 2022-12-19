@@ -6,7 +6,20 @@ body{
     margin: 0;
     padding: 0;
 }
-#con {
+#cabecera {
+     background: blue;
+     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+     color: white;
+     font-weight: bold;
+     margin: 0;
+     padding: 0.5rem;
+}
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8cm;
+}
+#container {
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -14,6 +27,6 @@ body{
     margin: 0 auto;
 }
 
-#con h1 {
+#container h1 {
     font-size: 20px;
 }
